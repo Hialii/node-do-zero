@@ -1,0 +1,29 @@
+POST http://127.0.0.1:3000/videos
+Content-Type: application/json
+
+{
+   "title": "Video 2",
+   "description": "Esse e o meu primeiro video",
+   "duration": 150
+}
+
+###
+
+GET http://127.0.0.1:3000/videos
+
+
+###
+
+PUT http://127.0.0.1:3000/videos/3e734807-8ac6-423c-b07f-73b631a8d34d
+Content-Type: application/json
+
+{
+   "title": "Video 02",
+   "description": "Esse e o meu primeiro video",
+   "duration": 180
+}
+
+###
+
+
+DELETE http://127.0.0.1:3000/videos/3e734807-8ac6-423c-b07f-73b631a8d34d
